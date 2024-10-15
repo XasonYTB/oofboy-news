@@ -1,5 +1,135 @@
-/* Existing styles are here... */
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffde7;
+  color: #333;
+  line-height: 1.6;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+header {
+  background-color: #f57f17;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo h1 {
+  font-size: 2em;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-links a:hover {
+  color: #ffe082;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #fff3e0;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  color: #f57f17;
+}
+
+.hero p {
+  font-size: 1.5em;
+  color: #333;
+  margin: 20px 0;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f57f17;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e65100;
+}
+
+/* Oofboy Message Section */
+.message-section {
+  padding: 50px 20px;
+  background-color: #ffeb3b;
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  border-bottom: 4px solid #f57f17;
+}
+
+.message-section h2 {
+  font-size: 2.2em;
+  color: #f57f17;
+  margin-bottom: 20px;
+}
+
+.message-section p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* About Section */
+.about-section {
+  padding: 50px 20px;
+  background-color: #fffde7;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5em;
+  color: #f57f17;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Stats Section */
 .stats-section {
   padding: 50px 20px;
   background-color: #fff59d;
@@ -19,7 +149,6 @@
   border-radius: 10px;
   display: inline-block;
   margin: 20px 0;
-  animation: bounce 2s infinite;
 }
 
 .stat ul {
@@ -72,4 +201,16 @@
 
 .community-btn:hover {
   background-color: #e65100;
+}
+
+/* Footer */
+footer {
+  background-color: #f57f17;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
 }
