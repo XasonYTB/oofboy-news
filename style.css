@@ -123,6 +123,41 @@ footer {
   color: #333;
 }
 
+/* Existing styles are here... */
+
+.community-section {
+  padding: 50px 20px;
+  background-color: #ffeb3b;
+  text-align: center;
+  color: #333;
+}
+
+.community-section h2 {
+  font-size: 2.5em;
+  color: #f57f17;
+  margin-bottom: 20px;
+}
+
+.community-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.community-btn {
+  padding: 15px 30px;
+  background-color: #f57f17;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.community-btn:hover {
+  background-color: #e65100;
+}
+
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
